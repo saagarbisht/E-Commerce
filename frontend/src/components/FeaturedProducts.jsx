@@ -73,7 +73,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
 					<button
 						onClick={prevSlide}
 						disabled={isStartDisabled}
-						className={`absolute top-1/2 sm:-left-10 transform -translate-y-1/2 p-2 rounded-full transition-colors duration-300 ${
+						className={`absolute top-1/2 -left-8 sm:-left-10 transform -translate-y-1/2 p-2 rounded-full transition-colors duration-300 ${
 							isStartDisabled ? "sm:bg-gray-400 cursor-not-allowed" : "sm:bg-emerald-600 sm:hover:bg-emerald-500"
 						}`}
 					>
